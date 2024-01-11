@@ -15,7 +15,7 @@ userRequests.createUsers = function(userData){
     
 }
 
-userRequests.loginusers = function(userData){
+userRequests.loginUsers = function(userData){
     return axios.post(`${baseUrl}/users/login`, userData, {
         headers: {
             'Content-Type': 'application/json'
@@ -27,3 +27,5 @@ userRequests.loginusers = function(userData){
     });
     
 }
+
+export default userRequests;
