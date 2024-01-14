@@ -6,7 +6,7 @@ import { createUser } from '../../redux/usersSlice';
 import logo from '../../assets/logoTwo.png';
 import './style.css'
 
-const Signup = () => {
+const Register = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -189,4 +189,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Register;
